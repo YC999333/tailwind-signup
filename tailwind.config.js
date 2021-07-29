@@ -289,6 +289,7 @@ module.exports = {
       ],
     },
     fontSize: {
+      xxxs: ["0.3rem", { lineHeight: "0.5rem" }],
       xxs: ["0.5rem", { lineHeight: "0.75rem" }],
       xs: ["0.75rem", { lineHeight: "1rem" }],
       sm: ["0.875rem", { lineHeight: "1.25rem" }],
