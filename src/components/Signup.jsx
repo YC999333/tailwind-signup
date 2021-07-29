@@ -58,7 +58,7 @@ function Signup() {
   return (
     <div className="mx-2 flex flex-col rounded-lg text-base w-4/5 sm:w-1/2 md:w-1/3">
       <div className="bg-bgblue text-white my-5 rounded-lg shadow-xl">
-        <p className="text-sm text-center py-5 px-10">
+        <p className="text-sm text-center py-5 px-16">
           <span className="font-bold">Try it free 7 days</span> then $20/mo.
           thereafter
         </p>
