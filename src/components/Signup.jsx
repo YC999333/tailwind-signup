@@ -56,11 +56,11 @@ function Signup() {
   console.log(firstErr, firstname);
 
   return (
-    <div className="mx-2 flex flex-col rounded-lg text-base w-4/5 sm:w-1/2 md:w-1/3">
+    <div className="mx-2 flex flex-col rounded-lg text-base w-11/12 sm:w-1/2 md:w-1/3">
       <div className="bg-bgblue text-white my-5 rounded-lg shadow-xl">
-        <p className="text-sm text-center py-5 px-16">
-          <span className="font-bold">Try it free 7 days</span> then $20/mo.
-          thereafter
+        <p className="text-sm text-center py-3 px-16">
+          <span className="font-bold leading-8">Try it free 7 days</span> then
+          $20/mo. thereafter
         </p>
       </div>
       <div className="flex flex-col bg-white rounded-lg justify-center p-8">
@@ -200,7 +200,7 @@ function Signup() {
           <button className="my-2 rounded-md w-full h-10 text-sm text-white uppercase bg-buttongreen shadow-xl">
             claim your free trial
           </button>
-          <p className="text-xxs text-center my-2">
+          <p className="text-xxs text-center m-1 leading-5">
             By clicking the button, you are agreeing to our{" "}
             <span className="font-bold text-buttongreen">terms&services</span>
           </p>
